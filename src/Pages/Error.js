@@ -1,7 +1,7 @@
-function Erron() {
-    return ( <div>
-        Erron
-    </div> );
+function Error() {
+    return (<div>
+        <h1>Error</h1>
+    </div>  );
 }
 
-export default Erron ;
+export default Error;

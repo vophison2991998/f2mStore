@@ -1,13 +1,15 @@
-import Home from '../Pages/Home.js'
-import Tes from '../Pages/test.js'
-import Erron from '../Pages/Error.js'
-const PublicRouters=[
-    { path:'/',component : Home},
-    { path:'/tes',component : Tes},
-    { path: '*',component : Erron}
-        
+import Home from '../Pages/Home';
+import Help from '../Pages/Help';
+import Error from '../Pages/Error';
+
+
+const publicRouters=[
+    {path :'/' ,component: Home},
+    {path :'/Help' ,component: Help},
+    {path :'*' ,component: Error},
+
 ];
 
-const privateRouters=[];
+const privateRouter=[]
 
-export  { PublicRouters , privateRouters }
+export {publicRouters,privateRouter}

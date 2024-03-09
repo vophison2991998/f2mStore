@@ -1,8 +1,13 @@
-function Home() {
-    return ( <div>
-        <h1>Welcome to the home</h1>
+// Inside './Pages/Home'
+import React from 'react';
 
-    </div> );
-}
+const Home = () => {
+  // Your Home component logic here
+  return (
+    <div>
+      <h1>Home </h1>
+    </div>
+  );
+};
 
 export default Home;
