@@ -1,6 +1,6 @@
-import Header from './Header/index';
+import Header from '../components/Header/index';
 import Sidebar from './sildebar/index';
-import Foter from './Foter/index';
+import Foter from '../components/Foter/index';
 function DefaultLayout({ children }) {
     return (
         <div>

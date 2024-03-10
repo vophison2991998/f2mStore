@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    background-color: black;
+    height: 170px; /* Adjust the height as needed */
+    width: 100%; /* Ensure the footer spans the full width */
+    position: fixed; /* Position the footer fixed */
+    bottom: 0; /* Stick the footer to the bottom of the viewport */
+  }
+  
+  .warpper-foter {
+    margin: auto;
+    width: 90%; /* Adjust the width as needed */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; /* Set the text color */
+  }
+  
+  .footer-logo img {
+    width: 100px; /* Adjust the width of the logo */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  .footer-links {
+    display: flex;
+  }
+  
+  .footer-ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .footer-li {
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  .footer-a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Make the links bold */
+    transition: color 0.3s ease; /* Add a smooth transition for color change */
+  }
+  
+  .footer-a:hover {
+    color: var(--primary); /* Use the custom CSS variable for hover color */
+  }
+  
+  .footer-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-cart span {
+    margin-left: 5px; /* Add spacing between the icon and text */
+  }
+  

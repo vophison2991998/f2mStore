@@ -1,9 +1,1 @@
-import React from 'react'
-
-function Foter() {
-  return (
-    <div>Foter</div>
-  )
-}
-
-export default Foter
+export { default } from './foter.js'
